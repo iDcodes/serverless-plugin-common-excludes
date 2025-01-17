@@ -27,21 +27,13 @@ module.exports = class CommonExcludes {
 
     [
       // common project files
-      '!.gitignore',
-      '!.gitconfig',
-      '!.npmignore',
-      '!.gitlab-ci.yml',
-      '!.vscode/**',
-      '!package-lock.json',
-      '!.npm-upgrade.json',
-      '!yarn.lock',
-      // common project directories
-      '!coverage/**',
-      '!.nyc_output/**',
-      '!docs/**',
-      '!test/**',
-      '!tests/**',
-      '!CODEOWNERS',
+      '!git/**',
+      '!.vs/**',
+      '!.idea/**',
+      '!src/more/**',
+      '!plugins/docpad-plugin-gulp/node_modules/**',
+      '!plugins/docpad-plugin-gulp/src/**',
+      '!plugins/docpad-plugin-gulp/test/**',
       // yes, these are real
       '!node_modules/**/*.gif',
       '!node_modules/**/*.png',
