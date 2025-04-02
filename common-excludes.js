@@ -27,6 +27,9 @@ module.exports = class CommonExcludes {
 
     [
       // common project files
+      '!.git/**',
+      '!.vs/**',
+      '!.idea/**',
       '!.gitignore',
       '!.gitconfig',
       '!.editorconfig',
